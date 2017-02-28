@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/wishlist_000"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_001"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_002"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_003"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_004"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_005"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_006"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_007"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_008"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_009"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_010"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_011"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_012"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_013"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_014"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_015"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_016"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_017"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_018"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_019"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_020"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_021"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_022"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_023"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_024"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_025"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_026"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_027"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_028"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_029"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_030"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_031"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_032"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_033"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_034"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_035"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_036"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_037"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_038"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_039"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_040"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_041"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_042"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_043"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_044"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_045"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_046"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_047"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_048"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_049"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_050"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_051"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_052"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_053"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_054"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_055"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_056"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_057"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_058"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_059"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_060"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_061"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_062"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_063"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_064"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_065"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_066"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_067"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_068"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_069"
+        android:duration="15" />
+    <item
+        android:drawable="@drawable/wishlist_070"
+        android:duration="15" />
+</animation-list>

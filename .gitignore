@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/hs_err_pid28178.log
+/build
+/captures
+.externalNativeBuild
+/import-summary.txt

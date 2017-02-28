@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/intro_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_cloud1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_clouds_modi" />
+
+        <ImageView
+            android:id="@+id/img_sun"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/ic_sun_modi"/>
+
+        <ImageView
+            android:id="@+id/img_cloud2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_clouds_modi" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="Title 1"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_tree"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_tree_modi"
+            android:layout_gravity="center" />0
+
+        <ImageView
+            android:id="@+id/img_bird"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:gravity="center"
+            android:maxEms="18"
+            android:text="Content 1"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</FrameLayout>

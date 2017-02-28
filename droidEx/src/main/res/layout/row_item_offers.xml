@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fr_menu_row"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:drawSelectorOnTop="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/img_offers_listing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_offers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearDescriptiuon"
+            android:layout_marginLeft="15dp"
+            android:maxLines="1"
+            android:text="Diwali Offers"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/linearDescriptiuon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/tv_offers_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.7"
+                android:maxLines="2"
+                android:text="Get special discounts on bookings"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/btn_view_more"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/tv_offers_description"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="View more" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

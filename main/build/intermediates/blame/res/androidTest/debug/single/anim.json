@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_scale_up.xml",
+        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_scale_up.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_out_to_right.xml",
+        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_scale_down.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_scale_down.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_in_from_right.xml",
+        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_in_from_left.xml",
+        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_scale_down.xml",
+        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_scale_down.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_out_to_left.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_scale_up.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_scale_up.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_out_to_left.xml",
+        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_in_from_right.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_out_to_right.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/res/merged/androidTest/debug/anim/fab_slide_in_from_left.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/main/build/intermediates/bundles/debug/res/anim/fab_slide_in_from_left.xml"
+    }
+]

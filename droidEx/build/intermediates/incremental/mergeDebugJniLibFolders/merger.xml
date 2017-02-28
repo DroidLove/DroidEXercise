@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/droidEx/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/droidEx/src/debug/jniLibs"/></dataSet></merger>
