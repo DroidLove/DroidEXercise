@@ -42,6 +42,8 @@
             android:exported="false" />
         <service android:name="com.ex.droidlist.MyService" />
         <service android:name="com.ex.droidlist.ForegroundService" />
+
+        <activity android:name="com.ex.droidlist.DataBindingActivity" />
     </application>
 
 </manifest>

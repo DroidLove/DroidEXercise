@@ -4,15 +4,7 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/droidEx/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/droidEx/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/droidEx/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/droidEx/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]
