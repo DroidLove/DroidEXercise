@@ -12,7 +12,8 @@ public class DataBindingActivity extends AppCompatActivity implements MainActivi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_data_binding);
+        // no need of default setContentView
+//        setContentView(R.layout.activity_data_binding);
 
         ActivityDataBindingBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_data_binding);
         MainActivityPresenter mainActivityPresenter = new MainActivityPresenter(this);
