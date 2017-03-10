@@ -1,7 +1,5 @@
 package com.ex.droidlist;
 
-import java.util.ArrayList;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -17,6 +15,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements
         FragmentClickListener {
@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Bottom Sheet");
         myArray.add("Animation List");
         myArray.add("Vector Drawable");
+        myArray.add("Native Data Binding Fragment");
+        myArray.add("Native Data Binding Activity");
+        myArray.add("ConstraintLayout");
 //        StartActivityForResult
 
         setSupportActionBar(mToolbar);
@@ -276,6 +279,24 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new VectorDrawableFragment()).commit();
+                        drawerLayout.closeDrawers();
+                    case 23:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new SimpleBindingFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 24:
+                        startActivity(new Intent(MainActivity.this,
+                                DataBindingActivity.class));
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 25:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new ConstraintLayoutFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }

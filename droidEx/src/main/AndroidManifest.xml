@@ -8,36 +8,46 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="21" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/MyMaterialTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyViewFipperActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".MyViewFipperActivity" />
         <activity
             android:name=".MaterialTabActivity"
-            android:label="@string/title_activity_material_tab"></activity>
+            android:label="@string/title_activity_material_tab" />
         <activity
             android:name=".CustomTabsActivity"
-            android:label="@string/title_activity_custom_tabs"></activity>
+            android:label="@string/title_activity_custom_tabs" />
         <activity
             android:name=".TestActivity"
-            android:label="@string/title_activity_test"></activity>
+            android:label="@string/title_activity_test" />
 
         <service
-            android:name="com.ex.droidlist.ExampleIntentService"
-            android:exported="false"></service>
-        <service android:name="com.ex.droidlist.MyService"></service>
-        <service android:name="com.ex.droidlist.ForegroundService"></service>
+            android:name=".ExampleIntentService"
+            android:exported="false" />
+        <service android:name=".MyService" />
+        <service android:name=".ForegroundService" />
+
+        <activity android:name=".DataBindingActivity" />
+
     </application>
 
 </manifest>
