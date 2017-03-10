@@ -1,7 +1,4 @@
-#Thu Mar 02 19:21:33 IST 2017
-base.0=/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_552b5107df7a6935ba789b95d5e7fb40d9637f26
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_63eeaca088f257677dd17afe984c64708515cbf9/classes.dex
-base.1=/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_63eeaca088f257677dd17afe984c64708515cbf9
-file.0=/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_552b5107df7a6935ba789b95d5e7fb40d9637f26/classes.dex
+#Fri Mar 10 14:03:36 IST 2017
+base.0=/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -1,187 +1,31 @@
 [
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_view.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_navigation_item_header.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_navigation_item.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_navigation_item_header.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_navigation_menu.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_lines.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
@@ -192,28 +36,20 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_layout_tab_icon.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
@@ -224,12 +60,8 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media_narrow.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -248,52 +80,32 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_simple_dropdown_hint.xml"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_navigation_menu.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
@@ -304,48 +116,44 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_dialog_title_material.xml"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_layout_tab_text.xml"
     },
     {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_navigation_item_separator.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/src/main/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
@@ -364,7 +172,15 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/home/jitesh/WorkSpace_17_Oct_2016/DroidEx/design/src/main/res/layout/design_navigation_item_subheader.xml"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/design/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple.xml"
     }
 ]

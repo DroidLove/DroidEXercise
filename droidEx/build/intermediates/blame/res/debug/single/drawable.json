@@ -4,12 +4,16 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/image9.jpeg"
     },
     {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_077.png",
+        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_077.png"
+    },
+    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_032.png",
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_032.png"
     },
     {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_077.png",
-        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_077.png"
+        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_063.png",
+        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_063.png"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
@@ -18,10 +22,6 @@
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_046.png",
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_046.png"
-    },
-    {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_063.png",
-        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_063.png"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/splash_21.png",
@@ -156,12 +156,12 @@
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_047.png"
     },
     {
-        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_033.png",
-        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_033.png"
-    },
-    {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_028.png",
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_028.png"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_033.png",
+        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_033.png"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
@@ -262,6 +262,10 @@
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_056.png",
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_056.png"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/splash_android.png",
+        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/splash_android.png"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_059.png",
@@ -386,6 +390,10 @@
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/wishlist_085.png",
         "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/wishlist_085.png"
+    },
+    {
+        "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/drawable_splash.xml",
+        "source": "/home/jitesh/WorkSpace/DroidEx/droidEx/src/main/res/drawable/drawable_splash.xml"
     },
     {
         "merged": "/home/jitesh/WorkSpace/DroidEx/droidEx/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
