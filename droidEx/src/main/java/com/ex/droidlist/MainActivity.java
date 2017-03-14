@@ -64,6 +64,8 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Native Data Binding Fragment");
         myArray.add("Native Data Binding Activity");
         myArray.add("ConstraintLayout");
+        myArray.add("ObjectAnimator");
+        myArray.add("Webview Browser");
 //        StartActivityForResult
 
         setSupportActionBar(mToolbar);
@@ -297,6 +299,20 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new ConstraintLayoutFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 26:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new ObjectAnimatorFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 27:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new WebviewFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
