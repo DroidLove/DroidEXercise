@@ -15,7 +15,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements
@@ -64,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Native Data Binding Fragment");
         myArray.add("Native Data Binding Activity");
         myArray.add("ConstraintLayout");
+        myArray.add("Lottie Animation");
 //        StartActivityForResult
 
         setSupportActionBar(mToolbar);
@@ -297,6 +297,13 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new ConstraintLayoutFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 26:
+                        getSupportFragmentManager()
+                            .beginTransaction()
+                            .replace(R.id.frm_main,
+                                new LottieExampleFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
