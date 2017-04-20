@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements
@@ -63,7 +64,8 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Native Data Binding Fragment");
         myArray.add("Native Data Binding Activity");
         myArray.add("ConstraintLayout");
-        myArray.add("Lottie Animation");
+        myArray.add("ObjectAnimator");
+        myArray.add("Webview Browser");
 //        StartActivityForResult
 
         setSupportActionBar(mToolbar);
@@ -301,9 +303,16 @@ public class MainActivity extends AppCompatActivity implements
                         break;
                     case 26:
                         getSupportFragmentManager()
-                            .beginTransaction()
-                            .replace(R.id.frm_main,
-                                new LottieExampleFragment()).commit();
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new ObjectAnimatorFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 27:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new WebviewFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
