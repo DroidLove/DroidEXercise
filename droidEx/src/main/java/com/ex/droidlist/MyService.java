@@ -2,7 +2,6 @@ package com.ex.droidlist;
 
 import android.app.Service;
 import android.content.Intent;
-import android.hardware.SensorManager;
 import android.media.MediaPlayer;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
@@ -33,7 +32,7 @@ public class MyService extends Service {
         myPlayer.setLooping(false); // Set looping
         myPlayer.start();
         Toast.makeText(this, "Service Started", Toast.LENGTH_LONG).show();
-        return Service.START_STICKY;
+        return Service.START_NOT_STICKY;
     }
 
     @Override

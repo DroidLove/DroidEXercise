@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements
     myArray.add("Webview Browser");
     myArray.add("Lottie Animation");
     myArray.add("Camera API");
+    myArray.add("Seconds Counter");
 //        StartActivityForResult
 
     setSupportActionBar(mToolbar);
@@ -328,6 +329,13 @@ public class MainActivity extends AppCompatActivity implements
                 .beginTransaction()
                 .replace(R.id.frm_main,
                     new CameraFragment()).commit();
+            drawerLayout.closeDrawers();
+            break;
+          case 30:
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.frm_main,
+                            new SecondsCounterFragment()).commit();
             drawerLayout.closeDrawers();
             break;
         }
