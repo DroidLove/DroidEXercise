@@ -43,6 +43,7 @@ public class SecondsCounterFragment extends Fragment {
                             getActivity().runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
+                                    // changes
                                     if (count > 1) {
                                         fragmentSecondsCounterBinding.textViewSeconds.setText(count + " Seconds");
                                     } else if (count == 1) {
