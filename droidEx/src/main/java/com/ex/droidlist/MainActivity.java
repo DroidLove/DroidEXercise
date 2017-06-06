@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity implements
     myArray.add("Lottie Animation");
     myArray.add("Camera API");
     myArray.add("Seconds Counter");
+    myArray.add("Arrow Anlmation");
 //        StartActivityForResult
 
     setSupportActionBar(mToolbar);
@@ -336,6 +337,13 @@ public class MainActivity extends AppCompatActivity implements
                     .beginTransaction()
                     .replace(R.id.frm_main,
                             new SecondsCounterFragment()).commit();
+            drawerLayout.closeDrawers();
+            break;
+          case 31:
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.frm_main,
+                            new ArrowAnimationListFragment()).commit();
             drawerLayout.closeDrawers();
             break;
         }
