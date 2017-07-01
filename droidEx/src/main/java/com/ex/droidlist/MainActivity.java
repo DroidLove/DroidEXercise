@@ -15,6 +15,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements
   ArrayList<String> myArray;
   private ActionBarDrawerToggle mDrawerToggle;
   DrawerLayout drawerLayout;
+  public static WeakReference<MainActivity> sWeakActivity;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements
     mToolbar = (Toolbar) findViewById(R.id.toolbar);
     drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
     left_drawer = (ListView) findViewById(R.id.left_drawer);
+    sWeakActivity = new WeakReference<>(MainActivity.this);
 
     myArray = new ArrayList<String>();
 
@@ -69,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements
     myArray.add("Camera API");
     myArray.add("Seconds Counter");
     myArray.add("Arrow Anlmation");
+    myArray.add("Random Background");
 //        StartActivityForResult
 
     setSupportActionBar(mToolbar);
@@ -346,6 +351,13 @@ public class MainActivity extends AppCompatActivity implements
                             new ArrowAnimationListFragment()).commit();
             drawerLayout.closeDrawers();
             break;
+          case 32:
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.frm_main,
+                            new BlinkingBackgroundFragment()).commit();
+            drawerLayout.closeDrawers();
+            break;
         }
 
       }
@@ -436,5 +448,9 @@ public class MainActivity extends AppCompatActivity implements
         left_drawer);
     // mDrawerToggle.setDrawerIndicatorEnabled(enable);
 
+  }
+
+  public void changeToolbarBackground(int color) {
+    mToolbar.setBackgroundColor(color);
   }
 }
