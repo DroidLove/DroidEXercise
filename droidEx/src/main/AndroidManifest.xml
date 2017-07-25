@@ -15,7 +15,6 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera" />
-
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
@@ -42,8 +41,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="https"
-                    android:host="phycological-medals.000webhostapp.com" />
+                    android:host="phycological-medals.000webhostapp.com"
+                    android:scheme="https" />
             </intent-filter>
         </activity>
         <activity
@@ -56,9 +55,9 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="https"
                     android:host="phycological-medals.000webhostapp.com"
-                    android:pathPrefix="/yoman" />
+                    android:pathPrefix="/yoman"
+                    android:scheme="https" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -67,9 +66,9 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="http"
                     android:host="phycological-medals.000webhostapp.com"
-                    android:pathPrefix="/yoman" />
+                    android:pathPrefix="/yoman"
+                    android:scheme="http" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -78,9 +77,9 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="domain"
                     android:host="phycological-medals.000webhostapp.com"
-                    android:pathPrefix="/yoman" />
+                    android:pathPrefix="/yoman"
+                    android:scheme="domain" />
             </intent-filter>
         </activity>
         <activity android:name=".MyViewFipperActivity" />
@@ -115,6 +114,7 @@
                 android:resource="@xml/widget_info" />
         </receiver>
 
+        <activity android:name=".LaunchModePlayActivity"></activity>
     </application>
 
 </manifest>

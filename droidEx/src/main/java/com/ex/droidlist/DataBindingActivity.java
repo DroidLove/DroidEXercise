@@ -1,13 +1,13 @@
 package com.ex.droidlist;
 
 import android.databinding.DataBindingUtil;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.ex.droidlist.databinding.ActivityDataBindingBinding;
 
-public class DataBindingActivity extends AppCompatActivity implements MainActivityContract.View{
+public class DataBindingActivity extends AppCompatActivity implements MainActivityContract.View {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

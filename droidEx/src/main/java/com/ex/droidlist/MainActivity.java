@@ -76,7 +76,8 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Seconds Counter");
         myArray.add("Arrow Anlmation");
         myArray.add("Random Background");
-//        StartActivityForResult
+        myArray.add("Launch Mode");
+        myArray.add("Chrome Tabs");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -360,6 +361,16 @@ public class MainActivity extends AppCompatActivity implements
                                         new BlinkingBackgroundFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
+                    case 33:
+                        startActivity(new Intent(MainActivity.this, LaunchModePlayActivity.class));
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 34:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new ChromeCustomtabsFragment()).commit();
+                        drawerLayout.closeDrawers();
                 }
 
             }
