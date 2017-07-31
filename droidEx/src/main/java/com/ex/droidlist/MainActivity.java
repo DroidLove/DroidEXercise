@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Launch Mode");
         myArray.add("Chrome Tabs");
         myArray.add("AnimatedVectorDrawable");
+        myArray.add("Dynamic Animation Spring");
+        myArray.add("Dynamic Animation Fling");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -380,6 +382,20 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new AnimatedVectorDrawableFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 36:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new DynamicSpringAnimationFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 37:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new DynamicFlingAnimationFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
