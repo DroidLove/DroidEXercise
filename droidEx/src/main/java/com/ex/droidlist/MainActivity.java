@@ -1,9 +1,14 @@
 package com.ex.droidlist;
 
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.customtabs.CustomTabsIntent;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -78,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Random Background");
         myArray.add("Launch Mode");
         myArray.add("Chrome Tabs");
+        myArray.add("AnimatedVectorDrawable");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -366,11 +372,16 @@ public class MainActivity extends AppCompatActivity implements
                         drawerLayout.closeDrawers();
                         break;
                     case 34:
+                        openChromeTabs();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 35:
                         getSupportFragmentManager()
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
-                                        new ChromeCustomtabsFragment()).commit();
+                                        new AnimatedVectorDrawableFragment()).commit();
                         drawerLayout.closeDrawers();
+                        break;
                 }
 
             }
@@ -476,5 +487,30 @@ public class MainActivity extends AppCompatActivity implements
 
     public void changeToolbarBackground(int color) {
         mToolbar.setBackgroundColor(color);
+    }
+
+    private void openChromeTabs() {
+
+        String url = "http://yolanddevs.blogspot.com/";
+        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+
+        CustomTabsIntent customTabsIntent = builder.build();
+
+        builder.setToolbarColor(ContextCompat.getColor(this, R.color.colorAccent));
+        // add share action to menu list
+//        builder.addDefaultShareMenuItem();
+
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_share_web);
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, url);
+        int requestCode = 100;
+        PendingIntent pendingIntent = PendingIntent.getActivity(this,
+                requestCode,
+                intent,
+                PendingIntent.FLAG_UPDATE_CURRENT);
+        builder.setActionButton(bitmap, "Share Link", pendingIntent, true);
+
+        customTabsIntent.launchUrl(this, Uri.parse(url));
     }
 }
