@@ -33,6 +33,7 @@ dependencies {
     }
 
     // Material About
+    //    compile 'com.github.jrvansuita:MaterialAbout:+'
     compile 'com.android.support:support-v4:25.4.0'
     compile 'com.android.support:appcompat-v7:25.4.0'
     compile 'com.android.support:design:25.4.0'
@@ -40,7 +41,6 @@ dependencies {
     compile 'com.eftimoff:android-viewpager-transformers:1.0.1@aar'
     compile 'com.airbnb.android:lottie:2.0.0-beta4'
     compile 'com.github.bumptech.glide:glide:3.7.0'
-//    compile 'com.github.jrvansuita:MaterialAbout:+'
     compile 'com.android.support:customtabs:25.4.0'
-    compile "com.android.support:support-dynamic-animation:25.4.0"
+    compile 'com.android.support:support-dynamic-animation:25.4.0'
 }

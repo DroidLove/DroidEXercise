@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("AnimatedVectorDrawable");
         myArray.add("Dynamic Animation Spring");
         myArray.add("Dynamic Animation Fling");
+        myArray.add("Compress High Res");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -396,6 +397,13 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new DynamicFlingAnimationFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 38:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new CompressHighResImageFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
