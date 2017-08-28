@@ -87,6 +87,8 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Dynamic Animation Spring");
         myArray.add("Dynamic Animation Fling");
         myArray.add("Compress High Res");
+        myArray.add("Hello Kotlin");
+        myArray.add("RecyclerView using Kotlin");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -404,6 +406,20 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new CompressHighResImageFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 39:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new com.ex.droidlist.HelloKotlinFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 40:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new com.ex.droidlist.RecyclerListingKotinFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
