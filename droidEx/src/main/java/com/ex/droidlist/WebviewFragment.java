@@ -5,10 +5,12 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
@@ -19,7 +21,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
  * Created by jitesh on 14/3/17.
  */
 
-public class WebviewFragment extends Fragment{
+public class WebviewFragment extends Fragment {
 
     private String postUrl = "http://www.google.com";
     private WebView webView;
@@ -42,6 +44,64 @@ public class WebviewFragment extends Fragment{
         webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl(postUrl);
         webView.setHorizontalScrollBarEnabled(false);
+
+        webView.setWebViewClient(new WebViewClient() {
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String urlNewString) {
+//                if (!loadingFinished) {
+//                    redirect = true;
+//                }
+//
+//                loadingFinished = false;
+                webView.loadUrl(urlNewString);
+                Log.e("shouldOver", "1");
+                return true;
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+//                if(!redirect){
+//                    loadingFinished = true;
+//                }
+//
+//                if(loadingFinished && !redirect){
+//                    //HIDE LOADING IT HAS FINISHED
+//                } else{
+//                    redirect = false;
+
+//                }
+                Log.e("onPageFinished", "3");
+            }
+        });
+
+//        webView.setWebViewClient(new WebViewClient() {
+//
+//            @Override
+//            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+//                view.loadUrl(url);
+//                return false;
+//            }
+//
+//            @Override
+//            public void onPageFinished(WebView view, String url) {
+//                super.onPageFinished(view, url);
+//
+//                if (url.contains("/allow")){
+//                    new Handler().postDelayed(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            Intent intent = new Intent();
+//                            intent.putExtra("token", token);
+//                            setResult(11, intent);
+//                            finish();
+//                        }
+//                    }, 1000);
+//
+//                }
+//            }
+//        });
 
         return view;
     }
