@@ -9,3 +9,5 @@
 .externalNativeBuild
 /import-summary.txt
 /projectFilesBackup
+.idea/instapk.xml
+instapk.log*
