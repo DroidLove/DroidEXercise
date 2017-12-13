@@ -21,48 +21,38 @@ class RecyclerListingKotinFragment : Fragment() {
     lateinit var adapter: SampleAdapter
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-
-
         return inflater.inflate(R.layout.activity_my_recyclerview, container, false)
     }
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         myArray = ArrayList()
 
         fillData()
 
         val layout = LinearLayoutManager(activity)
-
         rv_list.setLayoutManager(layout)
 
         adapter = SampleAdapter(myArray)
-
         rv_list.setAdapter(adapter)
-
     }
 
     private fun fillData() {
 
         val no_items = 1000
-
         for (i in 0 until no_items) {
             myArray.add("With RecyclerView Adapter Using Kotlin " + i)
         }
-
     }
 
-    inner class SampleAdapter(internal var myArray: ArrayList<String>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+    class SampleAdapter(internal var myArray: ArrayList<String>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
         override fun getItemCount(): Int {
             return myArray.size
         }
 
         override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-
             (holder as VHItem).tv_item!!.text = myArray[position]
-
         }
 
         override fun onCreateViewHolder(parent: ViewGroup, arg1: Int): RecyclerView.ViewHolder {
@@ -71,17 +61,12 @@ class RecyclerListingKotinFragment : Fragment() {
                     .inflate(R.layout.row_item, parent, false)
 
             val holder = VHItem(convertView)
-
             holder.tv_item = convertView.findViewById(R.id.tv_text) as TextView
-
             return holder
         }
 
         internal inner class VHItem(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
             var tv_item: TextView? = null
         }
-
     }
-
 }
