@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("RecyclerView using Kotlin");
         myArray.add("RxJava plus Okhttp");
         myArray.add("Dependency Injection");
+        myArray.add("Bind Service");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -434,7 +435,14 @@ public class MainActivity extends AppCompatActivity implements
                         getSupportFragmentManager()
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
-                                        new com.ex.droidlist.RxJavaGistFragment()).commit();
+                                        new DiExampleFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 43:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new BindServiceFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
