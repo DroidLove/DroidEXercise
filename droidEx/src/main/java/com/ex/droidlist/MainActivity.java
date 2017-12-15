@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("RxJava plus Okhttp");
         myArray.add("Dependency Injection");
         myArray.add("Bind Service");
+        myArray.add("ConstraintLayout Animation");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -443,6 +444,13 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new BindServiceFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 44:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new ConstraintAnimationFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
