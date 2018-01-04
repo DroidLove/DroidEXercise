@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Dependency Injection");
         myArray.add("Bind Service");
         myArray.add("ConstraintLayout Animation");
+        myArray.add("LifeCycle Activity");
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -451,6 +452,10 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new ConstraintAnimationFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 45:
+                        startActivity(new Intent(MainActivity.this, LifeCyclePrimaryActivity.class));
                         drawerLayout.closeDrawers();
                         break;
                 }
