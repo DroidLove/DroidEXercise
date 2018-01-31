@@ -5,11 +5,10 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.customtabs.CustomTabsIntent;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -94,10 +93,11 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("Bind Service");
         myArray.add("ConstraintLayout Animation");
         myArray.add("LifeCycle Activity");
+        myArray.add("JobScheduler");
 
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+//        setSupportActionBar(mToolbar);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setHomeButtonEnabled(true);
         // getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_navigation);
         // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -109,38 +109,38 @@ public class MainActivity extends AppCompatActivity implements
             mDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout,
                     mToolbar, R.string.drawer_open, R.string.drawer_close);
             mDrawerToggle.syncState();
-            drawerLayout.setDrawerListener(mDrawerToggle);
-            getSupportFragmentManager().addOnBackStackChangedListener(
-                    new FragmentManager.OnBackStackChangedListener() {
-                        @Override
-                        public void onBackStackChanged() {
-                            if (getSupportFragmentManager()
-                                    .getBackStackEntryCount() > 0) {
-                                getSupportActionBar()
-                                        .setDisplayHomeAsUpEnabled(true); // show
-                                // back
-                                // button
-                                mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View v) {
-                                        onBackPressed();
-                                    }
-                                });
-                            } else {
-                                // show hamburger
-                                getSupportActionBar()
-                                        .setDisplayHomeAsUpEnabled(false);
-                                mDrawerToggle.syncState();
-                                mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
-                                    @Override
-                                    public void onClick(View v) {
-                                        drawerLayout
-                                                .openDrawer(GravityCompat.START);
-                                    }
-                                });
-                            }
-                        }
-                    });
+//            drawerLayout.setDrawerListener(mDrawerToggle);
+//            getSupportFragmentManager().addOnBackStackChangedListener(
+//                    new FragmentManager.OnBackStackChangedListener() {
+//                        @Override
+//                        public void onBackStackChanged() {
+//                            if (getSupportFragmentManager()
+//                                    .getBackStackEntryCount() > 0) {
+//                                getSupportActionBar()
+//                                        .setDisplayHomeAsUpEnabled(true); // show
+//                                // back
+//                                // button
+//                                mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//                                    @Override
+//                                    public void onClick(View v) {
+//                                        onBackPressed();
+//                                    }
+//                                });
+//                            } else {
+//                                // show hamburger
+//                                getSupportActionBar()
+//                                        .setDisplayHomeAsUpEnabled(false);
+//                                mDrawerToggle.syncState();
+//                                mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//                                    @Override
+//                                    public void onClick(View v) {
+//                                        drawerLayout
+//                                                .openDrawer(GravityCompat.START);
+//                                    }
+//                                });
+//                            }
+//                        }
+//                    });
         }
 
         // drawerLayout.setDrawerListener(mDrawerToggle);
@@ -457,6 +457,12 @@ public class MainActivity extends AppCompatActivity implements
                     case 45:
                         startActivity(new Intent(MainActivity.this, LifeCyclePrimaryActivity.class));
                         drawerLayout.closeDrawers();
+                        break;
+                    case 46:
+                        if (Build.VERSION.SDK_INT >= 21) {
+                            startActivity(new Intent(MainActivity.this, JobSchedulerDemoActivity.class));
+                            drawerLayout.closeDrawers();
+                        }
                         break;
                 }
 

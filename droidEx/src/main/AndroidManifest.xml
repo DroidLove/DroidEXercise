@@ -118,7 +118,8 @@
 
         <activity android:name=".LaunchModePlayActivity" />
         <activity android:name=".LifeCyclePrimaryActivity" />
-        <activity android:name=".LifeCycleSecondaryActivity"></activity>
+        <activity android:name=".LifeCycleSecondaryActivity" />
+        <activity android:name=".JobSchedulerDemoActivity"></activity>
     </application>
 
 </manifest>
