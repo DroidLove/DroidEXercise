@@ -6,4 +6,7 @@
     <color name="colorAccent">#25A186</color>
     <color name="bg_circle_default">#666666</color>
 
+    <color name="none_received">#999999</color>
+    <color name="start_received">#00FF00</color>
+    <color name="stop_received">#FF0000</color>
 </resources>
