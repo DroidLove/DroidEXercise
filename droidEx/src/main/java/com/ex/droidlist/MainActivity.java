@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("ConstraintLayout Animation");
         myArray.add("LifeCycle Activity");
         myArray.add("JobScheduler");
+        myArray.add("ContentProvider");
 
 //        setSupportActionBar(mToolbar);
 //        getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -462,7 +463,16 @@ public class MainActivity extends AppCompatActivity implements
                         if (Build.VERSION.SDK_INT >= 21) {
                             startActivity(new Intent(MainActivity.this, JobSchedulerDemoActivity.class));
                             drawerLayout.closeDrawers();
+                        } else {
+                            AppUtils.Companion.toastMe(MainActivity.this, "Not available below API 21");
                         }
+                        break;
+                    case 47:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new ContentProviderDemoFragment()).commit();
+                        drawerLayout.closeDrawers();
                         break;
                 }
 

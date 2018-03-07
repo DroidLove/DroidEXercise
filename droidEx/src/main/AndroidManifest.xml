@@ -116,6 +116,9 @@
                 android:resource="@xml/widget_info" />
         </receiver>
 
+        <provider android:name=".StudentProvider"
+            android:authorities="com.ex.droidlist.StudentProvider"/>
+
         <activity android:name=".LaunchModePlayActivity" />
         <activity android:name=".LifeCyclePrimaryActivity" />
         <activity android:name=".LifeCycleSecondaryActivity" />
