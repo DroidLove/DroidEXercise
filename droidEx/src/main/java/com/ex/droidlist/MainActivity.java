@@ -95,6 +95,8 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("LifeCycle Activity");
         myArray.add("JobScheduler");
         myArray.add("ContentProvider");
+        myArray.add("RxKotlin");
+        myArray.add("RxKotlin APIcall");
 
 //        setSupportActionBar(mToolbar);
 //        getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -472,6 +474,20 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new ContentProviderDemoFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 48:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new RxKotlinExampleFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 49:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new RxKotlinAPICallFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }

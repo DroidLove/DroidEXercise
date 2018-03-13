@@ -19,7 +19,7 @@ class HelloKotlinFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_hello_kotlin, container, false)
     }
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         // Default way to initialize the views

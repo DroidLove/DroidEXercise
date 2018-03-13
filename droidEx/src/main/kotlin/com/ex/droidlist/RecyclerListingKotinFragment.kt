@@ -24,7 +24,7 @@ class RecyclerListingKotinFragment : Fragment() {
         return inflater.inflate(R.layout.activity_my_recyclerview, container, false)
     }
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         myArray = ArrayList()
 

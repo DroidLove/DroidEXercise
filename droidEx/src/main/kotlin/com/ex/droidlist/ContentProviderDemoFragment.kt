@@ -22,7 +22,7 @@ class ContentProviderDemoFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_content_provider, container, false)
     }
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         button2.setOnClickListener {
@@ -39,10 +39,10 @@ class ContentProviderDemoFragment : Fragment() {
         values.put(StudentProvider.GRADE,
                 editText3.getText().toString())
 
-        val uri = activity.getContentResolver().insert(
+        val uri = activity?.getContentResolver()?.insert(
                 StudentProvider.CONTENT_URI, values)
 
-        Toast.makeText(activity.getBaseContext(),
+        Toast.makeText(activity?.getBaseContext(),
                 uri.toString(), Toast.LENGTH_LONG).show()
     }
 

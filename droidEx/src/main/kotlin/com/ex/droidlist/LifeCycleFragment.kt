@@ -24,13 +24,16 @@ class LifeCycleFragment : Fragment() {
     private var mParam2: String? = null
 
     private var mListener: OnFragmentInteractionListener? = null
+    val context: Context
+        @JvmName("getContext2")
+        get() = activity!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppUtils.toastMe(activity, "onCreate Fragment")
+        AppUtils.toastMe(activity!!, "onCreate Fragment")
         if (arguments != null) {
-            mParam1 = arguments.getString(ARG_PARAM1)
-            mParam2 = arguments.getString(ARG_PARAM2)
+            mParam1 = arguments!!.getString(ARG_PARAM1)
+            mParam2 = arguments!!.getString(ARG_PARAM2)
         }
     }
 
@@ -38,7 +41,7 @@ class LifeCycleFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
 
-        AppUtils.toastMe(activity, "onCreateView Fragment")
+        AppUtils.toastMe(context, "onCreateView Fragment")
         return inflater.inflate(R.layout.fragment_life_cycle, container, false)
     }
 
@@ -95,43 +98,43 @@ class LifeCycleFragment : Fragment() {
             throw RuntimeException(context!!.toString() + " must implement OnFragmentInteractionListener")
         }
 
-        AppUtils.toastMe(activity, "onAttach Fragment")
+        AppUtils.toastMe(context, "onAttach Fragment")
     }
 
     override fun onDetach() {
         super.onDetach()
         mListener = null
 
-        AppUtils.toastMe(activity, "onDetach Fragment")
+        AppUtils.toastMe(context, "onDetach Fragment")
     }
 
     override fun onStart() {
         super.onStart()
-        AppUtils.toastMe(activity, "onStart Fragment")
+        AppUtils.toastMe(context, "onStart Fragment")
     }
 
     override fun onResume() {
         super.onResume()
-        AppUtils.toastMe(activity, "onResume Fragment")
+        AppUtils.toastMe(context, "onResume Fragment")
     }
 
     override fun onPause() {
         super.onPause()
-        AppUtils.toastMe(activity, "onPause Fragment")
+        AppUtils.toastMe(context, "onPause Fragment")
     }
 
     override fun onStop() {
         super.onStop()
-        AppUtils.toastMe(activity, "onStop Fragment")
+        AppUtils.toastMe(context, "onStop Fragment")
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-        AppUtils.toastMe(activity, "onDestroyView Fragment")
+        AppUtils.toastMe(context, "onDestroyView Fragment")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        AppUtils.toastMe(activity, "onDestroy Fragment")
+        AppUtils.toastMe(context, "onDestroy Fragment")
     }
 }// Required empty public constructor

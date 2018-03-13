@@ -3,13 +3,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 27
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "com.ex.droidlist"
         minSdkVersion 16
-        targetSdkVersion 25
+        targetSdkVersion 27
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
         vectorDrawables.useSupportLibrary = true
     }
@@ -39,22 +39,25 @@ dependencies {
 
     // Material About
     //    compile 'com.github.jrvansuita:MaterialAbout:+'
-    compile 'com.android.support:support-v4:25.4.0'
-    compile 'com.android.support:appcompat-v7:25.4.0'
-    compile 'com.android.support:design:25.4.0'
+    compile 'com.android.support:support-v4:27.1.0'
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:design:27.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.eftimoff:android-viewpager-transformers:1.0.1@aar'
     compile 'com.airbnb.android:lottie:2.0.0-beta4'
     compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'com.android.support:customtabs:25.4.0'
-    compile 'com.android.support:support-dynamic-animation:25.4.0'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'com.android.support:customtabs:27.1.0'
+    compile 'com.android.support:support-dynamic-animation:27.1.0'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     // RxJava Dependenices
-    compile 'io.reactivex:rxjava:1.2.1'
-    compile 'io.reactivex:rxandroid:1.2.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.8'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
     compile 'com.squareup.okhttp3:okhttp:3.9.0'
     compile 'com.google.code.gson:gson:2.8.2'
+    compile 'io.reactivex.rxjava2:rxkotlin:2.2.0'
+    implementation 'androidx.core:core-ktx:0.2'
 
     // Dependancy Injection
     compile 'com.google.dagger:dagger:2.8'

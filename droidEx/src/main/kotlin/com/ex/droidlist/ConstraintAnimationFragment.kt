@@ -24,7 +24,7 @@ class ConstraintAnimationFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_constraint_animation, container, false)
     }
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         val constraintSet1 = ConstraintSet()
