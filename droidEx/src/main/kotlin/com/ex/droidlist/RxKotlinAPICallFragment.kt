@@ -24,7 +24,7 @@ import org.json.JSONObject
  */
 class RxKotlinAPICallFragment : Fragment() {
 
-    lateinit var listEmployee: ArrayList<String>
+    //    lateinit var listEmployee: ArrayList<String>
     var url = "https://limitless-lake-93364.herokuapp.com/hello"
 //    var url = "http://192.168.10.126:8080/listEmployees"
 
@@ -48,7 +48,7 @@ class RxKotlinAPICallFragment : Fragment() {
         var client = OkHttpClient.Builder()
                 .addInterceptor(logging).build()
 
-        listEmployee = ArrayList()
+//        listEmployee = ArrayList()
 
 //        listEmployee.toFlowable()
 //                .subscribeBy(  // named arguments for lambda Subscribers
@@ -61,6 +61,8 @@ class RxKotlinAPICallFragment : Fragment() {
 //        )
 
         Flowable.fromCallable<Any> {
+            Log.d("Thread 1 ", Thread.currentThread().getName())
+
             val request = Request.Builder()
                     .url(url)
                     .build()
@@ -68,26 +70,39 @@ class RxKotlinAPICallFragment : Fragment() {
             val response = client.newCall(request).execute()
             return@fromCallable response?.body()?.string()
         }
-                .subscribeOn(Schedulers.io())
+                .subscribeOn(Schedulers.newThread())
+                .map { result -> mappingResult(result) }
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({ result ->
-                    Log.e("Response result", result.toString())
-                    var jsonObj = JSONObject(result.toString())
-                    var jsonArray = JSONArray(jsonObj.get("employee").toString())
-                    Log.e("Response jsonObj", jsonObj.get("employee").toString())
-
-                    for (i in 0 until jsonArray.length()) {
-                        var gsonObj: EmplotyeeModel = Gson().fromJson<EmplotyeeModel>(jsonArray[i].toString(), EmplotyeeModel::class.java)
-                        listEmployee.add(gsonObj.name)
-                        Log.e("Response Gson", gsonObj.name)
-                    }
-
+                    Log.d("Thread 2 ", Thread.currentThread().getName())
                     val adapter = ArrayAdapter<String>(activity,
-                            android.R.layout.simple_list_item_1, listEmployee)
+                            android.R.layout.simple_list_item_1, result)
                     listView_api.adapter = adapter
                 }, { e ->
                     Log.e("Response error", e.toString())
                 })
     }
 
+    private fun mappingResult(result: Any): ArrayList<String> {
+        Log.e("Inside Mapping", result.toString())
+        var listEmployee: ArrayList<String> = ArrayList()
+        var jsonObj = JSONObject(result.toString())
+        var jsonArray = JSONArray(jsonObj.get("employee").toString())
+
+        Flowable
+                .range(0, jsonArray.length())
+                .flatMap { idx -> getEmployeeObservable(idx, jsonArray) }
+                .subscribe({
+                    result ->
+                    Log.d("Thread 3 ", Thread.currentThread().getName())
+                    listEmployee.add(result.name) }
+                        , { e -> Log.e("Response Mapping error", e.toString()) })
+
+        return listEmployee
+    }
+
+    private fun getEmployeeObservable(idx: Int, jsonArray: JSONArray?): Flowable<EmplotyeeModel> {
+        var gsonObj: EmplotyeeModel = Gson().fromJson<EmplotyeeModel>(jsonArray?.get(idx)?.toString(), EmplotyeeModel::class.java)
+        return Flowable.just(gsonObj)
+    }
 }
