@@ -70,11 +70,12 @@ class RxKotlinAPICallFragment : Fragment() {
             val response = client.newCall(request).execute()
             return@fromCallable response?.body()?.string()
         }
-                .subscribeOn(Schedulers.newThread())
+                .subscribeOn(Schedulers.io())
                 .map { result -> mappingResult(result) }
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({ result ->
                     Log.d("Thread 2 ", Thread.currentThread().getName())
+                    progress_bar.visibility = View.GONE
                     val adapter = ArrayAdapter<String>(activity,
                             android.R.layout.simple_list_item_1, result)
                     listView_api.adapter = adapter
@@ -92,17 +93,17 @@ class RxKotlinAPICallFragment : Fragment() {
         Flowable
                 .range(0, jsonArray.length())
                 .flatMap { idx -> getEmployeeObservable(idx, jsonArray) }
-                .subscribe({
-                    result ->
+                .subscribe({ result ->
                     Log.d("Thread 3 ", Thread.currentThread().getName())
-                    listEmployee.add(result.name) }
+                    listEmployee.add(result.name)
+                }
                         , { e -> Log.e("Response Mapping error", e.toString()) })
 
         return listEmployee
     }
 
-    private fun getEmployeeObservable(idx: Int, jsonArray: JSONArray?): Flowable<EmplotyeeModel> {
-        var gsonObj: EmplotyeeModel = Gson().fromJson<EmplotyeeModel>(jsonArray?.get(idx)?.toString(), EmplotyeeModel::class.java)
+    private fun getEmployeeObservable(idx: Int, jsonArray: JSONArray?): Flowable<EmployeeModel> {
+        var gsonObj: EmployeeModel = Gson().fromJson<EmployeeModel>(jsonArray?.get(idx)?.toString(), EmployeeModel::class.java)
         return Flowable.just(gsonObj)
     }
 }
