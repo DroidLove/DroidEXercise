@@ -95,6 +95,7 @@ class RxKotlinAPICallFragment : Fragment() {
                 .flatMap { idx -> getEmployeeObservable(idx, jsonArray) }
                 .subscribe({ result ->
                     Log.d("Thread 3 ", Thread.currentThread().getName())
+                    Log.d("For loop replaced", result.name)
                     listEmployee.add(result.name)
                 }
                         , { e -> Log.e("Response Mapping error", e.toString()) })

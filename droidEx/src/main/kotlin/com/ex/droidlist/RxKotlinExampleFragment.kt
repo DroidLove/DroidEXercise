@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import io.reactivex.Flowable
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.rxkotlin.toFlowable
 import kotlinx.android.synthetic.main.fragment_hello_kotlin.*
@@ -32,7 +33,23 @@ class RxKotlinExampleFragment : Fragment() {
 //        var handler = Handler()
 //        handler.postDelayed(delayInMillis = 1000L) {
 //    }
-        // initialize using Kotlin Android Extensions
+
+        Flowable.just("item1")
+                .map({ str ->
+                    println("inside the map $str")
+                    str
+                })
+                .subscribe({ result ->
+                    System.out.println(result) })
+
+        Flowable.just("item2")
+                .flatMap({ str ->
+                    println("inside the flatMap $str")
+                    Flowable.just("$str+", "$str++", "$str+++")
+                })
+                .subscribe({ result ->
+                    System.out.println(result) })
+
         textView_kotlin.setOnClickListener {
             Toast.makeText(activity, "clicked", Toast.LENGTH_LONG).show()
         }
