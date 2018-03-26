@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        overridePendingTransition(R.anim.activity_open_translate, R.anim.activity_close_scale);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -509,6 +510,12 @@ public class MainActivity extends AppCompatActivity implements
 
         }
 
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+//        overridePendingTransition(R.anim.activity_open_scale, R.anim.activity_close_translate);
     }
 
     @Override
