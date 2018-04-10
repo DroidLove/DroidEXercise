@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("ContentProvider");
         myArray.add("RxKotlin");
         myArray.add("RxKotlin APIcall");
+        myArray.add("RecyclerView using ListAdapter");
 
 //        setSupportActionBar(mToolbar);
 //        getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -489,6 +490,13 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new RxKotlinAPICallFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 50:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new RecyclerVIewListAdapterFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }

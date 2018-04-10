@@ -15,10 +15,37 @@ public class LaunchModePlayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityLauchModePlayBinding dataBindingActivity = DataBindingUtil.setContentView(this, R.layout.activity_lauch_mode_play);
 
-        dataBindingActivity.buttonHome.setOnClickListener(new View.OnClickListener() {
+        dataBindingActivity.buttonStandard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LaunchModePlayActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        dataBindingActivity.buttonSingleTop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LaunchModePlayActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(intent);
+            }
+        });
+
+        dataBindingActivity.buttonSingleTask.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LaunchModePlayActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+            }
+        });
+
+        dataBindingActivity.buttonSingleInstance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LaunchModePlayActivity.this, MainActivity.class);
+//                intent.setFlags(Intent.FLAG_ACTIVITY_);
                 startActivity(intent);
             }
         });
