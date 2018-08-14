@@ -28,12 +28,12 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements
         FragmentClickListener {
 
-    private Toolbar mToolbar;
+    public static WeakReference<MainActivity> sWeakActivity;
     ListView left_drawer;
     ArrayList<String> myArray;
-    private ActionBarDrawerToggle mDrawerToggle;
     DrawerLayout drawerLayout;
-    public static WeakReference<MainActivity> sWeakActivity;
+    private Toolbar mToolbar;
+    private ActionBarDrawerToggle mDrawerToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("RxKotlin");
         myArray.add("RxKotlin APIcall");
         myArray.add("RecyclerView using ListAdapter");
+        myArray.add("Auto Ripple Effect");
 
 //        setSupportActionBar(mToolbar);
 //        getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -497,6 +498,13 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new RecyclerVIewListAdapterFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 51:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new AutoRippleDemoFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }
