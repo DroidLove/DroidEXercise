@@ -15,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 /**
  * Created by jitesh on 14/3/17.
@@ -140,8 +139,6 @@ public class WebviewFragment extends Fragment {
         // loading toolbar header image
         Glide.with(getActivity().getApplicationContext()).load("http://api.androidhive.info/webview/nougat.jpg")
                 .thumbnail(0.5f)
-                .crossFade()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(imgHeader);
     }
 
