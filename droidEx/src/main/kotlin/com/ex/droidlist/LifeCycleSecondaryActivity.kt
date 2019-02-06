@@ -2,7 +2,7 @@ package com.ex.droidlist
 
 import android.net.Uri
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 
 class LifeCycleSecondaryActivity : AppCompatActivity(), LifeCycleFragment.OnFragmentInteractionListener {
 

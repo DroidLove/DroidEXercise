@@ -1,9 +1,9 @@
 package com.ex.droidlist
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -30,7 +30,7 @@ class RecyclerListingKotinFragment : Fragment() {
 
         fillData()
 
-        val layout = LinearLayoutManager(activity)
+        val layout = androidx.recyclerview.widget.LinearLayoutManager(activity)
         rv_list.setLayoutManager(layout)
 
         adapter = SampleAdapter(myArray)
@@ -45,17 +45,17 @@ class RecyclerListingKotinFragment : Fragment() {
         }
     }
 
-    class SampleAdapter(internal var myArray: ArrayList<String>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+    class SampleAdapter(internal var myArray: ArrayList<String>) : androidx.recyclerview.widget.RecyclerView.Adapter<androidx.recyclerview.widget.RecyclerView.ViewHolder>() {
 
         override fun getItemCount(): Int {
             return myArray.size
         }
 
-        override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        override fun onBindViewHolder(holder: androidx.recyclerview.widget.RecyclerView.ViewHolder, position: Int) {
             (holder as VHItem).tv_item!!.text = myArray[position]
         }
 
-        override fun onCreateViewHolder(parent: ViewGroup, arg1: Int): RecyclerView.ViewHolder {
+        override fun onCreateViewHolder(parent: ViewGroup, arg1: Int): androidx.recyclerview.widget.RecyclerView.ViewHolder {
 
             val convertView = LayoutInflater.from(parent.context)
                     .inflate(R.layout.row_item, parent, false)
@@ -65,7 +65,7 @@ class RecyclerListingKotinFragment : Fragment() {
             return holder
         }
 
-        internal inner class VHItem(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        internal inner class VHItem(itemView: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView) {
             var tv_item: TextView? = null
         }
     }

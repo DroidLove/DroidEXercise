@@ -4,10 +4,6 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -116,8 +112,9 @@
                 android:resource="@xml/widget_info" />
         </receiver>
 
-        <provider android:name=".StudentProvider"
-            android:authorities="com.ex.droidlist.StudentProvider"/>
+        <provider
+            android:name=".StudentProvider"
+            android:authorities="com.ex.droidlist.StudentProvider" />
 
         <activity android:name=".LaunchModePlayActivity" />
         <activity android:name=".LifeCyclePrimaryActivity" />

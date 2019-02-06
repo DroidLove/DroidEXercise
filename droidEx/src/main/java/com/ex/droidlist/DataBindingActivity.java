@@ -1,8 +1,8 @@
 package com.ex.droidlist;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.ex.droidlist.databinding.ActivityDataBindingBinding;

@@ -4,13 +4,12 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         applicationId "com.ex.droidlist"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -31,21 +30,23 @@ android {
 }
 
 dependencies {
-    compile project(':main')
-    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation project(':main')
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4', {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
+    testImplementation "androidx.arch.core:core-testing:2.0.0"
+    testImplementation "io.mockk:mockk:1.9"
 
     // Material About
-    implementation "com.android.support:support-v4:$rootProject.supportLibraryVersion"
-    implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
-    implementation "com.android.support:design:$rootProject.supportLibraryVersion"
-    implementation "com.android.support.constraint:constraint-layout:$rootProject.constraintLayout"
+    implementation "androidx.legacy:legacy-support-v4:$rootProject.supportLibraryVersion"
+    implementation "androidx.appcompat:appcompat:$rootProject.supportLibraryVersion"
+    implementation "com.google.android.material:material:$rootProject.supportLibraryVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayout"
     implementation 'com.eftimoff:android-viewpager-transformers:1.0.1@aar'
     implementation "com.airbnb.android:lottie:$rootProject.lottie"
     implementation "com.github.bumptech.glide:glide:$rootProject.glide"
-    implementation "com.android.support:customtabs:$rootProject.supportLibraryVersion"
-    implementation "com.android.support:support-dynamic-animation:$rootProject.supportLibraryVersion"
+    implementation "androidx.browser:browser:$rootProject.supportLibraryVersion"
+    implementation "androidx.dynamicanimation:dynamicanimation:$rootProject.supportLibraryVersion"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     // RxJava Dependenices
@@ -65,6 +66,8 @@ dependencies {
 
     implementation 'com.google.dagger:dagger:2.8'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.8'
+
+    implementation "androidx.lifecycle:lifecycle-extensions:2.0.0"
 
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$rootProject.leakCanary"
 }

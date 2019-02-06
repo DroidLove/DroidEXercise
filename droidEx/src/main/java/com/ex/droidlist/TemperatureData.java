@@ -1,7 +1,7 @@
 package com.ex.droidlist;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
 
 /**
  * Created by jitesh on 2/3/17.
