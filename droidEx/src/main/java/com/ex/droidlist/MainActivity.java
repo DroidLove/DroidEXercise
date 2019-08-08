@@ -7,12 +7,6 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import androidx.browser.customtabs.CustomTabsIntent;
-import androidx.core.content.ContextCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,6 +15,13 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -101,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements
         myArray.add("RecyclerView using ListAdapter");
         myArray.add("Auto Ripple Effect");
         myArray.add("Android ViewModel");
+        myArray.add("Beating Alpha Animation");
 
 //        setSupportActionBar(mToolbar);
 //        getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -513,6 +515,13 @@ public class MainActivity extends AppCompatActivity implements
                                 .beginTransaction()
                                 .replace(R.id.frm_main,
                                         new AndroidViewModelFragment()).commit();
+                        drawerLayout.closeDrawers();
+                        break;
+                    case 53:
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(R.id.frm_main,
+                                        new BeatingAlphaAnimationFragment()).commit();
                         drawerLayout.closeDrawers();
                         break;
                 }

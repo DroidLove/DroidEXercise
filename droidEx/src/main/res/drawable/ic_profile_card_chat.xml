@@ -1,0 +1,16 @@
+<!--
+  ~ Created by Harshith Shetty
+  ~ Last modified 10/03/19 17:27
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="14"
+    android:viewportHeight="13">
+    <path
+        android:fillColor="#0ED279"
+        android:fillType="evenOdd"
+        android:pathData="M7,0.5c3.187,0 7,1.957 7,5.479 0,3.522 -3.813,5.479 -7,5.479 -0.901,0 -1.81,-0.136 -2.667,-0.412 -1.415,0.776 -2.861,1.222 -2.866,1.223 -0.451,0.137 -0.756,-0.449 -0.39,-0.733 0.507,-0.394 0.868,-0.992 1.12,-1.57C0.903,9.011 0,7.607 0,5.98 0,2.457 3.813,0.5 7,0.5z" />
+</vector>
