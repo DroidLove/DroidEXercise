@@ -9,4 +9,6 @@
     <color name="none_received">#999999</color>
     <color name="start_received">#00FF00</color>
     <color name="stop_received">#FF0000</color>
+
+    <color name="blink_color">#0ED279</color>
 </resources>
